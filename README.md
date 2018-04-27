@@ -1,15 +1,15 @@
 # fyle-backend-api
 
-<strong>API Base URL: https://fylepostgres.herokuapp.com/</strong>
+<strong>API Base URL: https://fylepostgres.herokuapp.com/ <br/> Health Check: https://fylepostgres.herokuapp.com/actuator/health</strong>
 
 
 <strong>1. Given a bank branch IFSC code, get branch details</strong>
 
 Method: GET
 
-API URL: /branch/{ifsc}
+API URL: /bank/{ifsc}
 
-Example: /branch/ABHY0065002
+Example: /bank/ABHY0065002
 
 Response Body:
 {
@@ -31,7 +31,7 @@ Response Body:
 
 Method: POST
 
-API URL: branch/list
+API URL: bank/list
 
 RequestBody: 
 {
