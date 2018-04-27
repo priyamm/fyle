@@ -3,6 +3,7 @@
  */
 package com.priyam.fyle.model;
 
+import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -10,6 +11,7 @@ import javax.persistence.Table;
  * @author priyamgupta
  *
  */
+@Entity
 @Table(name = "branches")
 public class Branches {
 	@Id
@@ -20,6 +22,7 @@ public class Branches {
 	private String city;
 	private String discrict;
 	private String state;
+
 	/**
 	 * @return the ifsc
 	 */
